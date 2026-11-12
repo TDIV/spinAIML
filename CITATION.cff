@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated paper below."
+type: software
+title: "Research code for deep generative learning of magnetic frustration in artificial spin ice"
+authors:
+  - family-names: Neogi
+    given-names: Arnab
+  - family-names: Mishra
+    given-names: Suryakant
+  - family-names: Iyer
+    given-names: Prasad P.
+  - family-names: Lu
+    given-names: Tzu-Ming
+  - family-names: Bussmann
+    given-names: Ezra
+  - family-names: Tretiak
+    given-names: Sergei
+  - family-names: Jones
+    given-names: Andrew C.
+  - family-names: Zhu
+    given-names: Jian-Xin
+keywords:
+  - artificial spin ice
+  - magnetic force microscopy
+  - variational autoencoder
+  - magnetic frustration
+preferred-citation:
+  type: article
+  title: "Deep generative learning of magnetic frustration in artificial spin ice from magnetic force microscopy images"
+  authors:
+    - family-names: Neogi
+      given-names: Arnab
+    - family-names: Mishra
+      given-names: Suryakant
+    - family-names: Iyer
+      given-names: Prasad P.
+    - family-names: Lu
+      given-names: Tzu-Ming
+    - family-names: Bussmann
+      given-names: Ezra
+    - family-names: Tretiak
+      given-names: Sergei
+    - family-names: Jones
+      given-names: Andrew C.
+    - family-names: Zhu
+      given-names: Jian-Xin
+  journal: npj Computational Materials
+  volume: 12
+  issue: 1
+  # Article number, represented as the citation start in CFF 1.2.
+  start: 266
+  year: 2026
+  month: 5
+  doi: 10.1038/s41524-026-02124-8
+  url: https://doi.org/10.1038/s41524-026-02124-8

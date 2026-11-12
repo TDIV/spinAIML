@@ -1,0 +1,17 @@
+# Reconstructed Python 3.11 environment; not the original training environment.
+# For a smaller CPU installation, install the PyTorch pair from its CPU index
+# first, as shown in README.md. Keep torch and torchvision versions matched.
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+scikit-image==0.24.0
+scikit-learn==1.5.2
+opencv-python-headless==4.10.0.84
+matplotlib==3.8.4
+seaborn==0.13.2
+Pillow==10.4.0
+tqdm==4.67.1
+jupyterlab==4.3.4
+ipykernel==6.29.5

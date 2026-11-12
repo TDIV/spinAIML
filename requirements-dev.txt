@@ -1,0 +1,6 @@
+# Lightweight publication checks; no PyTorch or experimental data required.
+# Install in a separate validation environment: cffconvert 2.0 requires an
+# older jsonschema dependency than current JupyterLab installations.
+nbformat==5.10.4
+PyYAML==6.0.2
+cffconvert==2.0.0
