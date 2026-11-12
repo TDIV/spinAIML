@@ -1,4 +1,4 @@
-# Reproducibility and known limitations
+# Reproducibility
 
 This document records issues visible in the source at the time of preparation. It distinguishes the research code as supplied from the limited checks applied to its public copy. Packaging has not established that a fresh run reproduces the published figures or metrics.
 
