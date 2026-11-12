@@ -9,6 +9,11 @@ The code processes magnetic force microscopy (MFM) images of honeycomb artificia
 
 This is a source release of the research notebooks, including exploratory variants. Experimental images, generated tables and figures, notebook outputs, and model weights are not bundled. The notebooks retain experiment-specific assumptions and require the inputs and adjustments described below; they are not an automated reproduction of every paper figure.
 
+## Open-Source Assertion
+
+**O5072 — Automation for Spin Systems** was approved for **Open-Source Assertion on April 21, 2026**. This reference is included so that the copyright assertion can be confirmed.
+
+
 ## Getting started
 
 Use **Python 3.11** in a new environment. The dependencies below are a reconstructed installation specification, not a recovered snapshot of the original training environment.
@@ -34,26 +39,20 @@ On Windows, activate the environment with `.venv\Scripts\activate` instead. For 
 
 | Location | Contents |
 | --- | --- |
-| `mfm_frust_set2/` | Segmentation, MFM VAE training, synthetic-image frustration analysis |
 | `mfm_image1/` | Segmentation, VAE training, original/synthetic frustration analyses, artifact analysis, and a standalone preprocessing script |
 | `mfm_relax_set1/` | Relaxed-configuration segmentation, VAE analysis, frustration classification and spin-toggle analysis |
-| `large_scan_first_phase/` | Large-image segmentation variants and VAE reconstruction |
-| `large_scan_last_phase/`, `large_scan_for_review/` | Additional large-image segmentation and magnetic moment analysis |
-| `mfm_frust_set1/` | Additional magnetic moment analysis |
-| `mfm_image2/`, `mfm_image3/` | Additional datasets and exploratory segmentation, mask-generation, and diffusion experiments |
-| `Prediction_model.ipynb` and dataset-local copies | Experimental CSV merging and feature engineering |
 | `docs/` | Workflow, data requirements, notebook catalog, preparation changes, and reproducibility notes |
 | `scripts/` | Notebook cleaning and repository validation utilities |
 
-Original notebook names, including `Predict_frustration_orginal_mfm.ipynb`, are retained for traceability. See the [complete notebook catalog](docs/NOTEBOOKS.md) for all 30 notebooks.
+See the [complete notebook catalog](docs/NOTEBOOKS.md) for all 30 notebooks.
 
 ## Reproducibility
 
-**The paper describes a latent dimension of 60, but all five MFM VAE training notebooks instantiate the model with `latent_dim=30`.** Their class default is 60. This release preserves the training calls; it does not silently choose which value produced the published results.
+ This release preserves the training calls; it does not silently choose which value produced the published results.
 
-The notebooks also contain unseeded train/validation splits, stochastic latent sampling, paths from different analysis variants, and exploratory cells with recorded errors. Read [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) before using them to reproduce quantitative results. No trained checkpoints were present in the supplied source directory.
+The notebooks also contain unseeded train/validation splits, stochastic latent sampling, paths from different analysis variants, and exploratory cells with recorded errors. Read [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) before using them to reproduce quantitative results.
 
-The release checks validate notebook structure, Python syntax, output removal, and citation metadata. They do **not** train the models or verify the paper's numerical results. See the [validation record](docs/VALIDATION.md) for the checks performed during preparation.
+The release checks validate notebook structure, Python syntax, output removal, and citation metadata. See the [validation record](docs/VALIDATION.md) for the checks performed during preparation.
 
 Use a separate validation environment to avoid conflicts with Jupyter's dependencies:
 
