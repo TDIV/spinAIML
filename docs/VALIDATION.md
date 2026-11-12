@@ -4,8 +4,8 @@ The following checks were run locally during preparation on 2026-11-12, using Py
 
 | Check | Result |
 | --- | --- |
-| Python parsing | All 739 code cells in 30 notebooks and all three Python files passed |
-| Notebook schemas | All 30 notebooks passed format 4.5 validation |
+| Python parsing | All code cells in notebooks and all three Python files passed |
+| Notebook schemas | All  notebooks passed format 4.5 validation |
 | Citation schema | `CITATION.cff` passed CFF 1.2.0 validation |
 | Citation metadata | Paper title, eight authors, DOI, volume, and article number matched Crossref's published metadata |
 | Source provenance | SHA-256 hashes confirmed all 31 original research source files were unchanged |
