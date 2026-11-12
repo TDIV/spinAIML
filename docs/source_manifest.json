@@ -1,0 +1,445 @@
+{
+  "description": "Initial source-only export; paths are relative to the original workspace and public repository roots. Hashes record the initial export, not future edits.",
+  "paper_doi": "10.1038/s41524-026-02124-8",
+  "notebook_count": 30,
+  "original_python_file_count": 1,
+  "files": [
+    {
+      "path": "Prediction_model.ipynb",
+      "kind": "notebook",
+      "description": "CSV merging and feature engineering; requires prepared input tables.",
+      "original_sha256": "97599ec552b889922816eb872deaae95589fecebedaab7215c415bad4553c531",
+      "initial_release_sha256": "5aa03cc8f421081210e4d041a4c418285cbfd0f4db67a8ce16935d6871aae592",
+      "original_code_sha256": "2747cac04facd6144409c16f7d83420a25abafcab138297afd54e48258e17907",
+      "initial_release_code_sha256": "972e995606efdd96732a588d59bb5d2a73283681742a3a8c5cac7eacb64cd4c6",
+      "original_bytes": 43165,
+      "initial_release_bytes": 13839,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": [
+        2,
+        11,
+        12
+      ]
+    },
+    {
+      "path": "large_scan_first_phase/Automate_strength_dir_large_sample.ipynb",
+      "kind": "notebook",
+      "description": "Large-sample segmentation and moment-analysis variant.",
+      "original_sha256": "95cbcde4d96cf8daff35f867db4f318967673977e5188cf01af0fb8554292958",
+      "initial_release_sha256": "e1f6c0f2b859bd941ae8d9745e4b862fb585e8f02eede108c4f49b9191ef268b",
+      "original_code_sha256": "0789da169e6ca66911fad51a674997944c7aa57e51aa64ebe1e1973fae620aba",
+      "initial_release_code_sha256": "0789da169e6ca66911fad51a674997944c7aa57e51aa64ebe1e1973fae620aba",
+      "original_bytes": 1177858,
+      "initial_release_bytes": 60055,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "large_scan_first_phase/Automate_strength_direction.ipynb",
+      "kind": "notebook",
+      "description": "Segmentation and magnetic moment extraction.",
+      "original_sha256": "5c0875536ef4348f9ebb5ecb5b6392ffcb70c564408fb07bef67af6fbbd3a4bd",
+      "initial_release_sha256": "eaf607fc7312860d70b2dc7a18700d0f92ea1acd81957bcf744db317d74d233d",
+      "original_code_sha256": "a0294cc558e8d5ff6acb1b653ac391cfb2952432e794b45880b86d4798ebd88e",
+      "initial_release_code_sha256": "a0294cc558e8d5ff6acb1b653ac391cfb2952432e794b45880b86d4798ebd88e",
+      "original_bytes": 1492174,
+      "initial_release_bytes": 81435,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "large_scan_first_phase/VAE_generate_image.ipynb",
+      "kind": "notebook",
+      "description": "MFM VAE training and image comparisons; final comparison selects the relaxed dataset.",
+      "original_sha256": "249afb7ffc5aefd87a7b1f5661b696f5ed89bee4b1ff87685dbbfc8c16780231",
+      "initial_release_sha256": "994fb8762e343d32d1358df87bbc06420cd944ee2477bb4b537eb2fcc456e49f",
+      "original_code_sha256": "2708965119b2b1d5551bdc4a87350672566038b2c1fe164ee3941379940140a9",
+      "initial_release_code_sha256": "e6631a1918df59865e61bf6dc8ba1167dc4fe669850899043d37b434324d668b",
+      "original_bytes": 1183154,
+      "initial_release_bytes": 50575,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": [
+        23
+      ]
+    },
+    {
+      "path": "large_scan_first_phase/test_new_segmentation.ipynb",
+      "kind": "notebook",
+      "description": "Exploratory segmentation; saved runtime error documented.",
+      "original_sha256": "778697ce7fec094c638d99bdc7c7fe185b9b8f24b4a4aad14629de0481f2e20d",
+      "initial_release_sha256": "2462b476fd1fa51cfc573f7725a3fa61a169cd65fc42e0c47fbb53b5cdf3447c",
+      "original_code_sha256": "d2ae0cd89e1ce939f81db2833781d61f8d88ee24dbd2dbc4df1fd77cc5cc2382",
+      "initial_release_code_sha256": "d2ae0cd89e1ce939f81db2833781d61f8d88ee24dbd2dbc4df1fd77cc5cc2382",
+      "original_bytes": 740678,
+      "initial_release_bytes": 6231,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "large_scan_for_review/Automate_strength_direction_magnetic_moment.ipynb",
+      "kind": "notebook",
+      "description": "Segmentation and moment extraction for the review scan.",
+      "original_sha256": "6db428c0e9e781805444ee7d8c22374ccbe538560cd0d9e968777b88ebfa4a7e",
+      "initial_release_sha256": "cf842f226ad22fe9617e6b89dde3c1308bf7840d134254737952af8196cacc5f",
+      "original_code_sha256": "4e5597ece09f0d2098aff2e1604ac6ca1d02780d92d5ce3789a980edc4dea1a9",
+      "initial_release_code_sha256": "4e5597ece09f0d2098aff2e1604ac6ca1d02780d92d5ce3789a980edc4dea1a9",
+      "original_bytes": 1811727,
+      "initial_release_bytes": 38018,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "large_scan_last_phase/Automate_strength_dir.ipynb",
+      "kind": "notebook",
+      "description": "Segmentation and moment extraction for the last-phase scan.",
+      "original_sha256": "7b5508e1f7dd53fb1b63a21168aef618d4f73d89efc0e5dd6bb94766bde26129",
+      "initial_release_sha256": "ddf4994f0ebd22288aaeb802d947c116acbbafc3fdb701c0a8a4b550891fee18",
+      "original_code_sha256": "bc9033782608f0da63167a45f205f2e65b6acad873840a2320ff20eb3ad44999",
+      "initial_release_code_sha256": "bc9033782608f0da63167a45f205f2e65b6acad873840a2320ff20eb3ad44999",
+      "original_bytes": 1574352,
+      "initial_release_bytes": 40824,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "mfm_frust_set1/Automate_strength_direction_magnetic_moment.ipynb",
+      "kind": "notebook",
+      "description": "Additional dataset analysis; saved runtime errors documented.",
+      "original_sha256": "3fc4c785ae4ee51c284cbf3ad30ddd1375af7da11ac0f588aa973df4ad13cdfa",
+      "initial_release_sha256": "10aac91c85109954e385a5bca93a3ace8c0a157a178d8b2235e65e36df064a97",
+      "original_code_sha256": "678f92c90d5794c5d8baf40ed7fcbc3b6b938095e2ccd5730c989a1843b5e3e0",
+      "initial_release_code_sha256": "678f92c90d5794c5d8baf40ed7fcbc3b6b938095e2ccd5730c989a1843b5e3e0",
+      "original_bytes": 1443773,
+      "initial_release_bytes": 43519,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "mfm_frust_set2/Automate_strength_direction.ipynb",
+      "kind": "notebook",
+      "description": "Stage 1: segmentation and magnetic moment extraction.",
+      "original_sha256": "a870a8e74609382664fa27eb8be68b6b378a96e032d73fa4b5b8748c4b6106a2",
+      "initial_release_sha256": "9209c2895fa465a08f1923b4810c92ccb51a872c30efd16b4012dd2a3b1ccd42",
+      "original_code_sha256": "c5e86d5e5c9f0978648dc23d9ae5190c1c96af821946d22de6ac4b6dc9e03533",
+      "initial_release_code_sha256": "c5e86d5e5c9f0978648dc23d9ae5190c1c96af821946d22de6ac4b6dc9e03533",
+      "original_bytes": 1500106,
+      "initial_release_bytes": 34834,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "mfm_frust_set2/Predict_frustration_synthetic.ipynb",
+      "kind": "notebook",
+      "description": "Stage 3: synthetic-image vertex analysis and direction optimization.",
+      "original_sha256": "72eb011a87d00354cc19e10f56d8e577db14ff22549dbc54bb3552a1f935bab1",
+      "initial_release_sha256": "93e8ee5abe58bc27705a7a19ce421cd6db49bfba87835574fe60769177a23914",
+      "original_code_sha256": "194c0e9a7a2a77ae06fc3a425fc50ed4aa2bfd1f99cadd8519275a5a1d50d33c",
+      "initial_release_code_sha256": "239f2becf42a354b7c7b0bd800535be850caeb6b3d34901e25fcd2a78b1a8254",
+      "original_bytes": 1255121,
+      "initial_release_bytes": 31779,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": [
+        4
+      ]
+    },
+    {
+      "path": "mfm_frust_set2/VAE_generate_image.ipynb",
+      "kind": "notebook",
+      "description": "Stage 2: MFM VAE training, reconstruction, and synthetic moments.",
+      "original_sha256": "9866bc9c8ec8164c4c76c5845f5e65528fab4d7707810c807afdaa64817fb8c5",
+      "initial_release_sha256": "f0ed1bad9952cecae124ca1a17f373597a54286f88ea9809d4bb53062f70f4c7",
+      "original_code_sha256": "1f44d4660acf0cd700e7cc156b72043eed0eba787a2da1462f22b56188230937",
+      "initial_release_code_sha256": "1f44d4660acf0cd700e7cc156b72043eed0eba787a2da1462f22b56188230937",
+      "original_bytes": 706462,
+      "initial_release_bytes": 38793,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "mfm_image1/Automate_strength_direction_magnetic_moment.ipynb",
+      "kind": "notebook",
+      "description": "Segmentation and moment extraction; updated-arrow output paths.",
+      "original_sha256": "af8ad5aaa2521a38d656254f2dd7bcbedce522740ea0a61ca1967642dc19b6c5",
+      "initial_release_sha256": "2dda24203e9be60a45ea249014cb4627925c942f2741ffbb6a0d03bc56dad0d6",
+      "original_code_sha256": "38a0acf6e2c8209c39c705226b6d07250661c41f9aa2d65e60abf99afa483a10",
+      "initial_release_code_sha256": "38a0acf6e2c8209c39c705226b6d07250661c41f9aa2d65e60abf99afa483a10",
+      "original_bytes": 1577027,
+      "initial_release_bytes": 38077,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "mfm_image1/Highlight_artifacts.ipynb",
+      "kind": "notebook",
+      "description": "Artifact inspection and visualization.",
+      "original_sha256": "319c7deb71850f1c2c23c8b46dc0081c43fe7538233527edeb426e69aff3c930",
+      "initial_release_sha256": "82721649a22cf7df5d33f1ecc1ec6ff0571cf5d4247fcf769a302468326b0124",
+      "original_code_sha256": "28886aafb9402d46b967dd3d7d09cacd1d28f1ba3a617ead3182cc3e4f43747f",
+      "initial_release_code_sha256": "28886aafb9402d46b967dd3d7d09cacd1d28f1ba3a617ead3182cc3e4f43747f",
+      "original_bytes": 602200,
+      "initial_release_bytes": 33246,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "mfm_image1/Predict_frustration_orginal_mfm.ipynb",
+      "kind": "notebook",
+      "description": "Original-image vertex/frustration analysis and direction optimization.",
+      "original_sha256": "e5b7220c4a4f52537f00ef682b7f8051108e61dc4b3633d0bb20089fe73fec27",
+      "initial_release_sha256": "2a0144219898afbc1729d6840c0ee234d15625c360e66fb37f5ec37728b658b4",
+      "original_code_sha256": "9656f34dcb679d207d5f4fccdf0a4c9bc8283a4990403470b6ead5f29edf8124",
+      "initial_release_code_sha256": "dc510b0102950b243ad340ccf7ce133017e48436482ab95b868dccd370ae0702",
+      "original_bytes": 1527844,
+      "initial_release_bytes": 45030,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": [
+        6
+      ]
+    },
+    {
+      "path": "mfm_image1/Predict_frustration_synthetic_mfm.ipynb",
+      "kind": "notebook",
+      "description": "Synthetic-image vertex/frustration analysis.",
+      "original_sha256": "6ff8929691837405046c3bfbbeedb707c235e5d6f0f6d994ea8a4490e514c1c4",
+      "initial_release_sha256": "4fab53097522f22dabcb4fcf4ebd6a17246f79ab371039a49011f1431751285e",
+      "original_code_sha256": "d4f3318e6caaa0348aa8a5783e86151f67af645338d2aa871028346ba08394fd",
+      "initial_release_code_sha256": "4bddd6cf950e9003a5d79611f47203669922b9f5781c3674d1d69ac4c3848158",
+      "original_bytes": 2517736,
+      "initial_release_bytes": 35226,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": [
+        6
+      ]
+    },
+    {
+      "path": "mfm_image1/Prediction_model.ipynb",
+      "kind": "notebook",
+      "description": "Dataset-local CSV merging and feature-engineering experiment.",
+      "original_sha256": "7d850837d9f5bc2dc9927f81bcd92ca13001165175512825a01c6570277665cb",
+      "initial_release_sha256": "031b2486073cc74a009e84040555bca662054481e756d3e5026d1c8ceb92fb53",
+      "original_code_sha256": "dcedd1812d378b61ea201fafb860e55d6def4914286792f8075d70937f53ba19",
+      "initial_release_code_sha256": "88453f785710510d5eba9bd57d8a03e7a06660736c96a818d0cd989f8d3e57a1",
+      "original_bytes": 39718,
+      "initial_release_bytes": 13828,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": [
+        2,
+        11,
+        12
+      ]
+    },
+    {
+      "path": "mfm_image1/VAE_generative_image.ipynb",
+      "kind": "notebook",
+      "description": "MFM VAE training, reconstruction, and comparison metrics.",
+      "original_sha256": "d70dc795ddaa2ec12375b3d2d888b4047ccf19537a33c21be88ee6bdec076492",
+      "initial_release_sha256": "428110dcee78a9c906845f4a45c0210d4a464f6aae61e8cd14e6d2ee831a80a5",
+      "original_code_sha256": "380c06f76e225f8ffd31cfeb3ce4ec09c77c51d991af3380825250d3acabfd8f",
+      "initial_release_code_sha256": "18ff1686aae947c21063cdf19f3365175839168dc782bf47c933abff0a6fb461",
+      "original_bytes": 1642024,
+      "initial_release_bytes": 57660,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": [
+        51
+      ]
+    },
+    {
+      "path": "mfm_image1/cleaned_code.py",
+      "kind": "python",
+      "description": "Earlier standalone preprocessing variant with top-level execution.",
+      "original_sha256": "1a23fd4ea063efa96814d3d765afa65df44ec38d3b8eff6f95496f4253820185",
+      "initial_release_sha256": "1cd5cd848690a729e77884009a47e7dee0a3597e08226df1979346f9f13e6c12",
+      "original_bytes": 18040,
+      "initial_release_bytes": 18038,
+      "preparation_changes": [
+        "Removed redundant final blank line; Python statements unchanged."
+      ]
+    },
+    {
+      "path": "mfm_image2/Automate_strength_direction_magnetic_moment.ipynb",
+      "kind": "notebook",
+      "description": "Segmentation variants and moment extraction; review mixed input names.",
+      "original_sha256": "e7b76e336e2582633532fe48b53cfbd583714f56403d10d37174c9fb62ea9abc",
+      "initial_release_sha256": "854f67c02322c974d8732fe5ff90b65c71b8cff1463b31375f2a3468db4ed4a9",
+      "original_code_sha256": "e3edc60777bf3aadf171cae56b93e34f8f37117a7bd2a404b9f5770ba0e43dfd",
+      "initial_release_code_sha256": "e3edc60777bf3aadf171cae56b93e34f8f37117a7bd2a404b9f5770ba0e43dfd",
+      "original_bytes": 3062824,
+      "initial_release_bytes": 91715,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "mfm_image2/Predict_frustration_orginal_mfm.ipynb",
+      "kind": "notebook",
+      "description": "Original-image analysis variant; review copied input paths.",
+      "original_sha256": "b6274d313a369be68477342e709d1e1c63a14dd0d894969122bc238ae9d5399a",
+      "initial_release_sha256": "9ab894b4fa28ae03b5cea6c394ea9b06409b24576f5cea88db468b293e546715",
+      "original_code_sha256": "3f442f5d5b6d173999d78267cd644100654eacd6ce4f69b6207a7ebdef1dff5a",
+      "initial_release_code_sha256": "2351e72fb468f9995fd2fa4ea492e0b75e5a83726fad2503a600bc821d950a83",
+      "original_bytes": 1529886,
+      "initial_release_bytes": 46529,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": [
+        6
+      ]
+    },
+    {
+      "path": "mfm_image2/Predict_frustration_synthetic_mfm.ipynb",
+      "kind": "notebook",
+      "description": "Synthetic-image analysis variant; review copied input paths.",
+      "original_sha256": "7c2e4b7672a30e2cd790f6f70a8f7a2f1e7b952121ce0547dd4cbafc3882a239",
+      "initial_release_sha256": "0754f65450eb5cf00b6de284e2bf49223f40305b5d238fcf2b0b1a3a10be3137",
+      "original_code_sha256": "6e623079b1577a65f91672c11fd58faeb1ec241f44128b68d78ca097fc9cfff7",
+      "initial_release_code_sha256": "46f1ada9e28a09b599d35cfc01e732df432c117d61f5254eb67a9bb655c8df59",
+      "original_bytes": 2009447,
+      "initial_release_bytes": 24341,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": [
+        6
+      ]
+    },
+    {
+      "path": "mfm_image2/Prediction_model.ipynb",
+      "kind": "notebook",
+      "description": "Dataset-local CSV merging and feature-engineering experiment.",
+      "original_sha256": "7d850837d9f5bc2dc9927f81bcd92ca13001165175512825a01c6570277665cb",
+      "initial_release_sha256": "604d625a355dc7b669b55ca1867a4765797feb1b3f65018129e93896d1044c65",
+      "original_code_sha256": "dcedd1812d378b61ea201fafb860e55d6def4914286792f8075d70937f53ba19",
+      "initial_release_code_sha256": "88453f785710510d5eba9bd57d8a03e7a06660736c96a818d0cd989f8d3e57a1",
+      "original_bytes": 39718,
+      "initial_release_bytes": 13828,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": [
+        2,
+        11,
+        12
+      ]
+    },
+    {
+      "path": "mfm_image2/VAE_for_mask.ipynb",
+      "kind": "notebook",
+      "description": "Exploratory VAE for mask generation.",
+      "original_sha256": "6cbbe61f542dd9f081eee090d4c3876db04f053232a7d69ba0a840f49e718522",
+      "initial_release_sha256": "5ba04f59232b1426904859321f5fa9b90c73ab57005ea79571f3e93dfaf047d9",
+      "original_code_sha256": "3bec4ffc0a3f7eff00c510a398e6583f67bb014dfc96247b1d427f668a1d01a3",
+      "initial_release_code_sha256": "3bec4ffc0a3f7eff00c510a398e6583f67bb014dfc96247b1d427f668a1d01a3",
+      "original_bytes": 204278,
+      "initial_release_bytes": 15842,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "mfm_image2/VAE_for_mask_segmentation_v2.ipynb",
+      "kind": "notebook",
+      "description": "Exploratory generator/discriminator model for masks, despite the VAE filename.",
+      "original_sha256": "c5642f0d4729d6c3d4edca723f97c42c808fc490715089c2bce82700ebdff037",
+      "initial_release_sha256": "8e7f16fbbd37500d9ed1af20cf38dc4d31e685091a121e301c09f09ad58124d1",
+      "original_code_sha256": "ed835f5aa0fd80013a57485b11a18486b4238ff9ea746a7462eda6e63f55ba4c",
+      "initial_release_code_sha256": "ed835f5aa0fd80013a57485b11a18486b4238ff9ea746a7462eda6e63f55ba4c",
+      "original_bytes": 191863,
+      "initial_release_bytes": 9897,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "mfm_image2/VAE_generative_image.ipynb",
+      "kind": "notebook",
+      "description": "MFM VAE training/reconstruction variant; review intermediate paths.",
+      "original_sha256": "8ea089898103df63b3852ec86181067b25035eedf0ce3d9103d1b32632f52b1b",
+      "initial_release_sha256": "c406cddb3746ce7f284e3ee245435d19eebbd3f691f648d7f0217e08e1ce234f",
+      "original_code_sha256": "433dee71efc599cc5ebcf1d52e0f6f42811476ba336f549aaaa4c2596846e6e9",
+      "initial_release_code_sha256": "5e53e188d60e7640426b1fb7703fa184f87e942f170623ef3d79b038f7c765d6",
+      "original_bytes": 1709712,
+      "initial_release_bytes": 57191,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": [
+        50
+      ]
+    },
+    {
+      "path": "mfm_image2/diffusion_for_segmentation.ipynb",
+      "kind": "notebook",
+      "description": "Exploratory diffusion-style mask reconstruction.",
+      "original_sha256": "d578c3d389d135c95b756e32b154bdd70b6d883f6c018922d5de80fd466c83e7",
+      "initial_release_sha256": "d6ae02d4fcd6463582e0361db47d1579ccf7bc981ecce1f0f4499b189550aefa",
+      "original_code_sha256": "d4cf08d7d886084c28242825ff694b83f3a6c1bbe80017f675ebe2c324a3fd3a",
+      "initial_release_code_sha256": "513cab5b14718e29c127c84a9a1c7c90b97ba353c8dea45dca8a854678cf9ea7",
+      "original_bytes": 1092936,
+      "initial_release_bytes": 15196,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": [
+        7
+      ]
+    },
+    {
+      "path": "mfm_image2/mask_segmentation_v2.ipynb",
+      "kind": "notebook",
+      "description": "Exploratory U-Net and segmentation methods; uses mfm_image1 training inputs.",
+      "original_sha256": "43aa74eb843dd8d1a811baa4354ac7c4cb9d27ccaf8191fba7126f8ba5b79e6e",
+      "initial_release_sha256": "98f646bb5ab553129b9739dbe12bb6d0d99d294dd32388e8fc4905adeca9c0ed",
+      "original_code_sha256": "9804de5930db74548279cdaaafb3ecd2d9ffe2d705b62370a23048c06287ce82",
+      "initial_release_code_sha256": "84947dd3271051aa866d2dc62f540a916c7fab0d790826a415d8392997959d38",
+      "original_bytes": 3661525,
+      "initial_release_bytes": 39179,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": [
+        3,
+        17
+      ]
+    },
+    {
+      "path": "mfm_image3/mask_segmentation.ipynb",
+      "kind": "notebook",
+      "description": "Exploratory segmentation; saved runtime errors documented.",
+      "original_sha256": "5e363681f44b087e427a9be856dada9ab2891cd1395c49d631a6e9308bd6af9c",
+      "initial_release_sha256": "4d595173bf962e5731840ca9213bf9051ce28cea1276d6a4b39cad78520afda9",
+      "original_code_sha256": "25bf2e9f5a9e0cdbccd89785853b0777c4d4cc1272e4c5604dd438d851533990",
+      "initial_release_code_sha256": "25bf2e9f5a9e0cdbccd89785853b0777c4d4cc1272e4c5604dd438d851533990",
+      "original_bytes": 490779,
+      "initial_release_bytes": 10346,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "mfm_relax_set1/Automate_strength_direction.ipynb",
+      "kind": "notebook",
+      "description": "Relaxed-configuration segmentation and moment extraction.",
+      "original_sha256": "d3194060b6cc7fd46a78aa044debaf9eb43cde7de3c5f20fbb09d63102f35b37",
+      "initial_release_sha256": "713f745d1e208d31856356f92105922e1ea75651559374582d82f7824a5eb01d",
+      "original_code_sha256": "fcac082702d212a88f9b1365b91d324df56a397271c04c6ecbb87569b6e22837",
+      "initial_release_code_sha256": "fcac082702d212a88f9b1365b91d324df56a397271c04c6ecbb87569b6e22837",
+      "original_bytes": 1450522,
+      "initial_release_bytes": 36288,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "mfm_relax_set1/Frustration_prediction.ipynb",
+      "kind": "notebook",
+      "description": "Vertex classification, direction toggles, and paper-figure variants.",
+      "original_sha256": "db836bf356e74f5829ea3840441b93430d26a4985f99122b206b28bf9746655c",
+      "initial_release_sha256": "d57d46a86bc94c97b1966fb104c7d5352c2977d37d858228724d030bde19697b",
+      "original_code_sha256": "3e6e06774ffd97d92729f9d9759d9b7aaf30674c619dc811709a1640e4f8a7d5",
+      "initial_release_code_sha256": "3e6e06774ffd97d92729f9d9759d9b7aaf30674c619dc811709a1640e4f8a7d5",
+      "original_bytes": 1142126,
+      "initial_release_bytes": 46266,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": []
+    },
+    {
+      "path": "mfm_relax_set1/VAE_generate_image.ipynb",
+      "kind": "notebook",
+      "description": "MFM VAE training, loss tracking, reconstruction, and latent-space analysis.",
+      "original_sha256": "0c724222a318e9981169c06567a7d090f0f94330da196052a671373597b52c04",
+      "initial_release_sha256": "fbd6564521e4a70765b0eec598d56c5d433417d3296d9c105f17707e1af64a7c",
+      "original_code_sha256": "f92a86393deaef33ba147e3cacdd70b1973f492e7518e45db1a5d3156de4255a",
+      "initial_release_code_sha256": "2953ce45b505c80939b2c034fff07f17b081b1566279b19b33c4acecfb64cd3e",
+      "original_bytes": 1551005,
+      "initial_release_bytes": 69053,
+      "original_python_version": "3.11.7",
+      "original_cells_with_source_edits": [
+        37
+      ]
+    }
+  ]
+}
