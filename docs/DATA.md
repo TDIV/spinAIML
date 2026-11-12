@@ -11,14 +11,8 @@ The following filenames were identified in the supplied working directory. Put a
 | Directory | Morphology / mask | MFM phase image | Dimensions |
 | --- | --- | --- | --- |
 | `mfm_image1/` | `AB1.png` | `AB2.png`; `AB3.png` is an additional image referenced by the setup cells | 258 × 258 |
-| `mfm_image2/` | `Mask_image.png` | `mfm_image.png` | 258 × 258 |
-| `mfm_image3/` | `mask_image.png` | `mfm_image.png` | 258 × 258 |
-| `mfm_frust_set1/` | `m90mtmor.png` | `m90mtphase.png` | 256 × 256 |
-| `mfm_frust_set2/` | `p90mtmor.png` | `p90mtphase.png` | 256 × 256 |
 | `mfm_relax_set1/` | `relax_mor.png` | `relax.png` | 256 × 256 |
-| `large_scan_first_phase/` | `first_mor.png` | `first_phase.png` | 256 × 256 |
-| `large_scan_last_phase/` | `last_mor.png` | `last_phase.png` | 256 × 256 |
-| `large_scan_for_review/` | `mor034.png` | `phase034.png` | 279 × 279 |
+
 
 Filenames are case-sensitive. Some exploratory notebooks refer to filenames from a different experiment, such as `AB1.png` or `AB2.png` inside `mfm_image2/`. Those inputs were not found in that dataset directory. Select the intended morphology/phase pair and update those cells before execution; do not assume images from different experiments are interchangeable.
 
