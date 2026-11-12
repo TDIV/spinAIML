@@ -44,7 +44,7 @@ On Windows, activate the environment with `.venv\Scripts\activate` instead. For 
 | `docs/` | Workflow, data requirements, notebook catalog, preparation changes, and reproducibility notes |
 | `scripts/` | Notebook cleaning and repository validation utilities |
 
-See the [complete notebook catalog](docs/NOTEBOOKS.md) for all 30 notebooks.
+See the [complete notebook catalog](docs/NOTEBOOKS.md) for all the notebooks.
 
 ## Reproducibility
 
