@@ -64,16 +64,11 @@ Provide `relax_mor.png` and `relax.png`, then inspect:
 
 The segmentation version writes `mfm_segments_with_updated_arrow_colors/`, whereas the VAE and frustration analysis refer to `mfm_segments_with_arrows/`. The reconstruction and classification cells also use several `paper_fig` and updated-arrow filenames. Align each required image/CSV path with the output from the chosen preceding stage. The VAE notebook includes training-loss, latent-space, and further evaluation experiments; some later cells depend on earlier interactive state.
 
-## Other datasets and exploratory notebooks
-
-The [notebook catalog](NOTEBOOKS.md) lists all retained variants. The large-scan folders contain dataset-specific preprocessing; `large_scan_first_phase/` additionally contains a VAE notebook. Its final image-comparison cell explicitly references results in `../mfm_relax_set1/`; that cross-dataset reference is preserved and should be reviewed before interpreting its plots.
-
-The mask-generation, U-Net, and diffusion experiments in `mfm_image2/` are exploratory alternatives, not the fully connected MFM VAE described in the paper. `VAE_for_mask_segmentation_v2.ipynb` contains generator/discriminator code despite its filename. The `Prediction_model.ipynb` copies perform merging and feature engineering; their name does not imply a complete trained prediction model.
 
 ## Execution details
 
 Use the notebook's containing directory as the kernel working directory. In Jupyter, verify with `Path.cwd()` after importing `Path` from `pathlib`. Restart the kernel when changing datasets or switching between notebook variants so that variables from a previous experiment do not hide missing prerequisites.
 
-Training defaults are 100 epochs, batch size 64, hidden dimension 400, Adam learning rate 0.005, and an 80/20 random split for the five main MFM VAE notebooks. Their instantiated latent dimension is 30; the paper and class defaults say 60. Their loss is summed binary cross-entropy plus KL divergence, equivalent to a KL weight of one.
+Training defaults are 100 epochs, batch size 64, hidden dimension 400, Adam learning rate 0.005, and an 80/20 random split for the five main MFM VAE notebooks. Their instantiated latent dimension is 60. Their loss is summed binary cross-entropy plus KL divergence, equivalent to a KL weight of one.
 
 Save your selected parameters, package versions, random seeds, split indices, and model weights alongside any new results. Generated files are ignored by Git. Before committing an edited notebook, clear its outputs with `python scripts/clean_notebooks.py` from the repository root.
