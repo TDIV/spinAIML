@@ -27,17 +27,6 @@ Cell numbers in this table refer to the original notebooks, before the new intro
 | `mfm_image1/Prediction_model.ipynb` | 12 | Portable path | `Data_merged_for_ML` |
 | `mfm_image1/VAE_generative_image.ipynb` | 51 | Portable path | `reconstructed_mfm_image_with_directional_arrows.png` |
 | `mfm_image1/VAE_generative_image.ipynb` | 51 | Portable path | `reconstructed_synthetic_mfm_image_with_directional_arrows.png` |
-| `mfm_image2/Predict_frustration_orginal_mfm.ipynb` | 6 | Portable path | `mfm_segments_with_arrows` |
-| `mfm_image2/Predict_frustration_synthetic_mfm.ipynb` | 6 | Portable path | `synthetic_mfm_segments_with_arrows` |
-| `mfm_image2/Prediction_model.ipynb` | 2 | Portable path | `all_csv_data` |
-| `mfm_image2/Prediction_model.ipynb` | 11 | Commented prose accidentally placed in a code cell | `Print confirmation and a preview` |
-| `mfm_image2/Prediction_model.ipynb` | 12 | Portable path | `Data_merged_for_ML` |
-| `mfm_image2/VAE_generative_image.ipynb` | 50 | Portable path | `reconstructed_mfm_image_with_directional_arrows.png` |
-| `mfm_image2/VAE_generative_image.ipynb` | 50 | Portable path | `reconstructed_synthetic_mfm_image_with_directional_arrows.png` |
-| `mfm_image2/diffusion_for_segmentation.ipynb` | 7 | Portable commented checkpoint path | `diffusion_model.pth` |
-| `mfm_image2/mask_segmentation_v2.ipynb` | 3 | Portable path | `../mfm_image1/mfm_segments/mfm_segment_*.png` |
-| `mfm_image2/mask_segmentation_v2.ipynb` | 3 | Portable path | `../mfm_image1/AB1.png` |
-| `mfm_image2/mask_segmentation_v2.ipynb` | 17 | Portable path | `../mfm_image1/mfm_segments/mfm_segment_*.png` |
 | `mfm_relax_set1/VAE_generate_image.ipynb` | 37 | Portable path | `reconstructed_mfm_image_with_directional_arrows.png` |
 | `mfm_relax_set1/VAE_generate_image.ipynb` | 37 | Portable path | `reconstructed_synthetic_mfm_image_with_directional_arrows.png` |
 
